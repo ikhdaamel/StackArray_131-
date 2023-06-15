@@ -11,7 +11,11 @@ public:
 		top = -1;
 	}
 
-	string push(string element) {
+	string push() {
+		cout << "\nenter a element :";
+		string element;
+		getline(cin, element);
+
 		if (top == 4) {														//step 1	
 			cout << "number of data exceeds the limits." << endl;
 			return "";
@@ -67,10 +71,7 @@ int main() {
 		char ch = (input.empty() ? '0' : input[0]);
 		switch (ch) {
 		case '1': {
-			cout << "\nenter a element :";
-			string element;
-			getline(cin, element);
-			s.push(element);
+			s.push();
 			break;
 		}
 		case'2':
