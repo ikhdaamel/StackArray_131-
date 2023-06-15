@@ -18,7 +18,7 @@ public:
 
 		if (top == 4) {														//step 1	
 			cout << "number of data exceeds the limits." << endl;
-			return "";
+			return;														//di return ke awal (class)
 		}
 
 		top++;																//step 2
