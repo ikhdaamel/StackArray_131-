@@ -31,4 +31,5 @@ public:
 			return;															//1.b
 		}
 
+		cout << "\nthe popped elements is:" << stack_array[top] << endl;	//step 2
 	
