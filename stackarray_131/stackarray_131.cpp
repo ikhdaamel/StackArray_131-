@@ -88,4 +88,7 @@ int main() {
 		default:
 			cout << "\nInvalid choice" << endl;
 			break;
-		
+		}
+
+	}
+}
