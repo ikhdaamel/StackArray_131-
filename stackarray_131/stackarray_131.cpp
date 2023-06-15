@@ -11,4 +11,10 @@ public:
 		top = -1;
 	}
 
+	string push(string element) {
+		if (top == 4) {														//step 1	
+			cout << "number of data exceeds the limits." << endl;
+			return "";
+		}
+
 	
