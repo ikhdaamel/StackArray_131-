@@ -84,11 +84,11 @@ int main() {
 			s.display();
 			break;
 		case '4':
-			return 0 :
+			return 0;
 		default:
 			cout << "\nInvalid choice" << endl;
 			break;
 		}
 
 	}
-}
+} 
