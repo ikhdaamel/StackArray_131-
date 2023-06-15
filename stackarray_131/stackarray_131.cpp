@@ -35,4 +35,21 @@ public:
 		top--;																//step 3 decrement
 	}
 
-	
+	//metode for checking if data is empty
+	bool empty() {
+		return (top == -1);
+	}
+
+	void display() {
+		if (empty()) {
+			cout << "\nStack is empty" << endl;
+		}
+		else {
+			for (int tmp = 0; tmp <= top; tmp++) {
+				cout << stack_array[tmp] << endl;
+			}
+		}
+	}
+};
+
+ 
